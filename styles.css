@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "optima";
+  src: url("fonts/OptimaLTPro-Roman.otf");
+}
+
 main {
   max-width: 38rem;
   height: 90%;
@@ -11,4 +16,10 @@ main {
 
 div.socials {
   align-items: end;
+}
+
+div.content {
+  font-family: "optima", "Arial", serif;
+  font-size: 1.5rem;
+  padding: 15%;
 }
